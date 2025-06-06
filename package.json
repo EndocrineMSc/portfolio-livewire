@@ -4,7 +4,8 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "stan": "./vendor/bin/phpstan analyse --memory-limit=2G"
+        "stan": "./vendor/bin/phpstan analyse --memory-limit=2G",
+        "pint": "./vendor/bin/pint"
     },
     "dependencies": {
         "@tailwindcss/vite": "^4.0.7",
